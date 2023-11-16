@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="container">
+    <div class="app">
+        <div class="search">
+            <input type="search" placeholder="Enter City Name " id="city" spellcheck="false">
+            <i class="fa-solid fa-magnifying-glass" id="search" ></i>
+        </div>
+        <div class="weather">
+        <img src="images/clear.png" alt="" class="weather-icon">
+        <p class="temp">7°c</p>
+        <p class="cityName">New York</p>
+        <div class="outputIcon">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <span class="humDetail">
+                     47%
+                </span><br>
+             <h5 class="small">humidity</h5>
+            </div>
+            <div class="windSpeed">
+                <i class="fa-solid fa-wind"></i>
+                <span class="windDetail">10.29km/h</span>
+                <br>
+               <h5 class="small">Wind Speed</h5>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://kit.fontawesome.com/03f1af4bf2.js" crossorigin="anonymous"></script>
+<script src="js.js"></script>  
+</body>
+</html>

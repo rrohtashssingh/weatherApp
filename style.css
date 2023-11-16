@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width:100%;
+    height: 100%;
+}
+
+body{
+    background: rgb(135,195,34);
+background: linear-gradient(232deg, rgba(135,195,34,1) 12%, rgba(45,154,253,1) 100%, rgba(187,46,252,1) 100%);}
+
+.container{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff; 
+}
+.app{
+    border-radius: 16px;
+    background: rgb(34,86,195);
+    background: linear-gradient(326deg, rgba(34,86,195,1) 12%, rgba(45,253,226,1) 100%, rgba(187,46,252,1) 100%);
+    text-align: center;
+    padding: 45px 35px;
+}
+.search{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.search input {
+    padding: 8px 22px;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+}
+.search i {
+    margin-left: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #dcd5d5;
+    cursor: pointer;
+    font-size: 16px;
+}
+.search i:hover{
+background: #fff;
+color:#000;
+}
+.search i:hover{
+    background-color: #f9f7f7;
+}
+.app img{
+    width:130px;
+}
+.outputIcon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-size: 17px;
+}
+.temp{
+    font-size: 60px;
+    font-weight: 700;
+}
+.cityName{
+    font-size: 21px;
+    font-weight: 700;
+}
+.small{
+    font-size:11px;
+}
+.weather{
+    display: none;
+}
